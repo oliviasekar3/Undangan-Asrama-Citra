@@ -534,68 +534,68 @@
                     <!-- <p>Tulis Ucapan dan Do'a dibawah ini</p> action untuk yg di form kehadiran wedding -> https://script.google.com/macros/s/AKfycbwCL4usCMVh33kXsi-z7FWeo42PxLPXNmnzxQiwL9Nm_HwLO9W2Vh79Gi5OMOti4wwDFg/exec -->
                 </div>
             </div>
-        </div>
-        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST"
-            action="https://script.google.com/macros/s/AKfycbyOomlqMU0su_CT7jT7a1eCIjGFcf128V3oxuGfYt06r-rnkJz-dBmEhESS8u1tTbWzlA/exec"
-            id="my-form">
-            <div class="col-12">
-                <div class="mb-3">
-                    <label for="tanggal" class="form-label">Tanggal</label>
-                    <input type="date" class="form-control" id="tanggal" name="tanggal">
+            <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST"
+                action="https://script.google.com/macros/s/AKfycbyOomlqMU0su_CT7jT7a1eCIjGFcf128V3oxuGfYt06r-rnkJz-dBmEhESS8u1tTbWzlA/exec"
+                id="my-form">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="tanggal" class="form-label">Tanggal</label>
+                        <input type="date" class="form-control" id="tanggal" name="tanggal">
+                    </div>
                 </div>
-            </div>
-            <div class="col-12">
-                <div class="mb-3">
-                    <label for="nama" class="form-label">Nama</label>
-                    <input type="text" class="form-control" id="nama" name="nama">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama">
+                    </div>
                 </div>
-            </div>
-            <div class="col-12">
-                <div class="mb-3">
-                    <label for="kelompok" class="form-label">Kelompok</label>
-                    <select name="kelompok" id="kelompok" class="form-select">
-                        <option selected>Pilih salah satu</option>
-                        <option value="Siliwangi">Siliwangi</option>
-                        <option value="Keboncai1">Keboncai 1</option>
-                        <option value="Keboncai2">Keboncai 2</option>
-                        <option value="klayan">Klayan</option>
-                        <option value="pasindangan">Pasindangan</option>
-                        <option value="wanakaya">Wanakaya</option>
-                        <option value="kalisapu">Kalisapu</option>
-                    </select>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="kelompok" class="form-label">Kelompok</label>
+                        <select name="kelompok" id="kelompok" class="form-select">
+                            <option selected>Pilih salah satu</option>
+                            <option value="Siliwangi">Siliwangi</option>
+                            <option value="Keboncai1">Keboncai 1</option>
+                            <option value="Keboncai2">Keboncai 2</option>
+                            <option value="klayan">Klayan</option>
+                            <option value="pasindangan">Pasindangan</option>
+                            <option value="wanakaya">Wanakaya</option>
+                            <option value="kalisapu">Kalisapu</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12">
-                <div class="mb-3">
-                    <label for="jam" class="form-label">Waktu Kehadiran</label>
-                    <input type="time" class="form-control" id="jam" name="jam">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="jam" class="form-label">Waktu Kehadiran</label>
+                        <input type="time" class="form-control" id="jam" name="jam">
+                    </div>
                 </div>
-            </div>
-            <!-- <div class="col-12">
-                <div class="mb-3">
-                    <label for="jumlah" class="form-label">Jumlah</label>
-                    <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1"
-                        value="1">
+                <!-- <div class="col-12">
+                    <div class="mb-3">
+                        <label for="jumlah" class="form-label">Jumlah</label>
+                        <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1"
+                            value="1">
+                    </div>
+                </div> -->
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Konfirmasi</label>
+                        <select name="status" id="status" class="form-select">
+                            <option selected>Pilih salah satu</option>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Tidak Hadir">TidakHadir</option>
+                        </select>
+                    </div>
                 </div>
-            </div> -->
-            <div class="col-12">
-                <div class="mb-3">
-                    <label for="status" class="form-label">Konfirmasi</label>
-                    <select name="status" id="status" class="form-select">
-                        <option selected>Pilih salah satu</option>
-                        <option value="Hadir">Hadir</option>
-                        <option value="Tidak Hadir">TidakHadir</option>
-                    </select>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="alasan" class="form-label">Alasan Tidak Hadir</label>
+                        <input type="text" class="form-control" id="alasan" name="alasan">
+                    </div>
                 </div>
-            </div>
-            <div class="col-12">
-                <div class="mb-3">
-                    <label for="alasan" class="form-label">Alasan Tidak Hadir</label>
-                    <input type="text" class="form-control" id="alasan" name="alasan">
+                <div class="col-12" style="margin-top: 35px;">
+                    <button class="btn btn-primary">Kirim</button>
                 </div>
-            </div>
-            <div class="col-12" style="margin-top: 35px;">
-                <button class="btn btn-primary">Kirim</button>
             </div>
         </form>
 
