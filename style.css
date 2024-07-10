@@ -90,15 +90,11 @@ body {
     background-image: url(img/miss1.jpg);
     /* background-image: url(img/bby.jpg); */
     background-size: cover;
-    min-height: 60vh;
+    min-height: 50vh;
     margin-top: -6rem;
     padding-top: 8rem;
     padding-bottom: 1rem;
     /* filter: opacity(50%); */
-}
-
-.home .row .col-md-8 {
-    padding-top: 10rem;
 }
 
 .home h2,
