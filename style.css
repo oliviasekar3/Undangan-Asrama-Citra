@@ -90,7 +90,7 @@ body {
     background-image: url(img/miss1.jpg);
     /* background-image: url(img/bby.jpg); */
     background-size: cover;
-    min-height: 50vh;
+    min-height: 70vh;
     margin-top: -6rem;
     padding-top: 8rem;
     padding-bottom: 1rem;
@@ -163,6 +163,10 @@ body {
 
 .btn-secondary {
     --bs-btn-hover-color: #fff;
+}
+
+.fs-5 {
+    font-size: 2rem !important;
 }
 
 .info {
