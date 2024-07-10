@@ -212,10 +212,14 @@ body {
 
 .story,
 .gallery,
-.rsvp,
-.gifts {
+.rsvp{
     padding-top: 10rem;
     padding-bottom: 8rem;
+}
+
+.gifts {
+    padding-top: 5rem;
+    margin-bottom: -5rem;
 }
 
 .story span,
