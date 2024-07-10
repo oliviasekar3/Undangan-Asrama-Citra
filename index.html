@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Asrama</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Sacramento&family=Work+Sans:wght@100;300;400;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- simplyCountdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script> -->
+</head>
+
+<body>
+    <!--Tulisan menuhin layar pke w-100 h-100 dd, mx-auto(margin di sumbu x auto) d-flex(display flex) -->
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex
+    justify-content-center align-items-center text-white">
+        <main>
+            <h4>Dear <span>Bapak/Ibu/Saudara/i </span></h4>
+            <!-- <h4>Gender Reveal</h4> -->
+            <h1 class="animate__animated animate__bounceIn animate__slow	2s">Asrama Liburan</h1>
+            <!-- <p>finally... lancar-lancar sampe hari H.</p> -->
+            <div class="simply-countdown"></div>
+            <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()" id="parti">Open Invitation</a>
+        </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparant sticky-top mynavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">citra</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ddtm</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="#home">Home</a>
+                        <!-- <a class="nav-link" href="#info">Info</a> -->
+                        <!-- <a class="nav-link" href="#story">Story</a> -->
+                        <!-- <a class="nav-link" href="#gallery">Gallery</a> -->
+                        <a class="nav-link" href="#rsvp">Presensi</a>
+                        <!-- <a class="nav-link" href="#gifts">Gifts</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <span>السلام عليكم ورحمة الله وبركاته</span>
+                    <p>Yuk Ramaikann!!!!</p>
+                    <h2 class="animate__animated animate__headShake animate__slower 3s animate__infinite infinite">
+                        Ajak-ajak temen nya yaa...</h2>
+                    <!-- <p>Asrama nyaa
+                         <br>moga kita semua bisa dateng ke resepsi kamu yaa
+                    </p> -->
+                </div>
+            </div>
+
+            <div class="row couple  bg-transparant">
+                <!-- <div class="col-lg-12"> -->
+                <div class="row">
+                    <div class="col-sm-12 mb-3 mb-sm-0">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Jadwal Asrama</h5>
+                                <p class="card-text"><i class="bi bi-calendar-fill"></i> Tanggal : 11, 12, 13 Juli 2024
+                                </p>
+                                <p><i class="bi bi-alarm-fill"></i> Waktu Isya di tempat</p>
+                                <p><i class="bi bi-geo-alt-fill"> </i> Tempat : Masjid Sabilul
+                                    Jannah <br> <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.567404442445!2d108.5529530736692!3d-6.700375193295193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ee244f6b69ea1%3A0x873a5943a86e5d8c!2sMasjid%20Sabilul%20Jannah%20(LDII)!5e0!3m2!1sid!2sid!4v1720612596522!5m2!1sid!2sid"
+                                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe> </p>
+                                <p><i class="bi bi-people-fill"></i> Peserta : Semua Muda-Mudi Se-Desa Cirebon Utara</p>
+                                <p><i class="bi bi-book-half"></i> Materi : 29 Karakter dalam Jamaah</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop">
+                                    Dresscode Asrama tanggal 13
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Detail Acara
+                                                </h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-6 ms-auto">
+                                                        <div class="card">
+                                                            <img src="img/batik.png" class="card-img-top img-fluid"
+                                                                alt="batik">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">DressCode : Batik</h5>
+                                                                <p class="card-text"></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 ms-auto">
+                                                        <div class="card">
+                                                            <img src="img/bakso2.png" class="card-img-top img-fluid"
+                                                                alt="bakso">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Makan Bakso</h5>
+                                                                <p class="card-text"></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 ms-auto">
+                                                        <div class="card">
+                                                            <img src="img/keakraban.jpg" class="card-img-top img-fluid"
+                                                                alt="bakso">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Keakraban</h5>
+                                                                <p class="card-text"></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 ms-auto">
+                                                        <div class="card">
+                                                            <img src="img/masjid.png" class="card-img-top img-fluid"
+                                                                alt="bakso">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Malam Suntuk</h5>
+                                                                <p class="card-text"></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Okee</button>
+                                                    <!-- <button type="button" class="btn btn-primary">Oke Siap</button> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <a href="#staticbackdrop" class="btn btn-primary">Acara Hari Terakhir</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-sm-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Detail Acara Asrama Hari Terakhir</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <!-- <div class="col-8 text-end">
+                            <h3>Denta Devina Tiara Maharani</h3>
+                            <p>Bogor, xx Oktober 2001</p>
+                            <p>Anak ke-2</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/denta.jpeg" alt="baby boy" class="img-responsive rounded-circle">
+                        </div> -->
+                    <!-- </div> -->
+                </div>
+
+                <!-- <span class="balon"> -->
+                <!-- <i class="bi bi-balloon-fill"></i> -->
+                <!-- <i class="bi bi-arrow-left-right"></i>
+                </span>
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/tanda.png" alt="baby boy" class="img-responsive rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <h3>Your Future Husband</h3>
+                            <p>Bogor, ......</p> -->
+                <!-- <p>Anak ke-2</p> -->
+                <!-- </div> -->
+                <!-- </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="info" class="info">
+        <div class="container">
+            <div class="row justify-content-center"> -->
+    <!-- col-10 itu supaya pas dikecilin isi nya gak mepet ke samping -->
+    <!-- <div class="col-md-8 col-10 text-center">
+                    <h2>Informasi Acara</h2>
+                    <p class="alamat">Alamat: Jl.Penamparan No.1, Kota Cirebon</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3962.562929024233!2d108.55695899999999!3d-6.700926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNDInMDMuMyJTIDEwOMKwMzMnMjUuMSJF!5e0!3m2!1sid!2sid!4v1716725241391!5m2!1sid!2sid"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <a href="https://maps.app.goo.gl/1GcCTDEnCx6kXeZW6" target="_blank"
+                        class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+                    <p class="description">Diharapkan untuk tidak salah alamat dan tanggal, manakala tiba di tujuan
+                        namun tidak ada tanda-tanda dilangsungkan acara, boleh jadi anda salah jadwal, atau salah tempat
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5 col-10"> -->
+    <!-- klo 2 card baris 135 ditambahin mb-5 -->
+    <!-- <div class="card text-center text-bg-light">
+                        <div class="card-header">
+                            Sesi Persalinan
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-clock d-block"></i>
+                                    <span>Pembukaan 1 s.d. selesai</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar-heart d-block"></i>
+                                    <span>Bulan Oktober 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Mohon doa dan dukungan nya untuk ibu dan bayi.
+                        </div>
+                    </div>
+                </div> -->
+
+    <!-- Card kedua untuk RESEPSI -->
+    <!-- <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light">
+                        <div class="card-header">
+                            Sesi Persalinan
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-clock d-block"></i>
+                                    <span>Pembukaan 1 s.d. selesai</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar-heart d-block"></i>
+                                    <span>Bulan Oktober 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Mohon doa dan dukungan nya untuk ibu dan bayi.
+                        </div>
+                    </div>
+                </div> -->
+    <!-- </div>
+        </div>
+    </section> -->
+
+    <!-- <section id="story" class="story">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>sedikit</span>
+                    <h2>Stories From Us</h2>
+                    <p>Awal kami kenal kamu sampai kami bisa sedeket itu.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image" style="background-image: url(img/olip.jpeg);"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Haiii Dentull</h3>
+                                    <span>my roommate</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Seneng banget bisa ketemu, kenal, plus deket sama kamu. Aku sampe bingung mau
+                                        ngetik apaa. Tapi yang jelas dari awal sampai detik ini kamu tetep jadi denta
+                                        yang ramah, cerewet, tegas, dan apaadanya.
+                                        Walaupun kita sekamar setelah covid, tapi setiap hari nya ada aja hal-hal random
+                                        yang seru, aneh tapi berkesan. Mulai dari bikin buket snack, nyetel lagu
+                                        keras-keras, nyanyi-nyanyi, ngobrol sama sebelah,
+                                        ihh pokoknya masi banyak banget deh (ada yang gak layak tayang juga si wkwk).
+                                        Terusss
+                                        tiba-tiba awal taun 2024 kamu ngabarin mau nikah. Jujur kaget banget banget,
+                                        rasanya sedih tapi seneng.
+                                        Udah gitu yang bikin lebih gak nyangka ternyata sama yang ini sampe akhir dong
+                                        aaa ending yang memuaskan, panutan si wkwwk canda. Pokoknya semoga pilihan kamu
+                                        yang sekarang untuk seumur hidup sama dia tepat dan barokah,
+                                        moga dia bener-bener THE ONE nya kamu, moga juga kamu bahagia selalu trus punya
+                                        keturunan yang solih-solihah (jadi gak sabar punya ponakan baruu), trus semoga
+                                        lancar sampe hari H, janlup dijaga kesehatan nya...
+                                        Untuk calon suami kamu, please jaga denta baik-baik, jangan ngecewain dia, trus
+                                        walaupun dia agak keras kepala tapi dia baik banget jadi moga kamu bisa selalu
+                                        ngertiin dia. yang sabar-sabar ya sama denta.
+                                        pokoknya temen deket aku jangan dibuat sedih, aaaa "happy for you both"
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image" style="background-image: url(https://picsum.photos/300/300);">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Mba alalaa</h3>
+                                    <span>Bulan Agustus 2023</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Beberapa bulan kemudian kami mulai mendatangi nakes untuk menjalani program
+                                        kehamilan.
+                                        Promil berlangsung selama 3 bulan di tahap pertama dan 3 bulan di tahap kedua.
+                                        Saat promil tahap akhir
+                                        kami melakukan pengecekan di dokter obgyn dengan hasil keseluruhan sehat.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image" style="background-image: url(img/dinni.jpeg);">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Dinni</h3>
+                                    <span>Bulan Maret 2024</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Pada Bulan Maret menjelang ramadhan perut sang ibu terasa keram tapi tidak
+                                        terpikirkan kalau
+                                        itu tanda-tanda kehamilan. Akan tetapi saat itu juga sudah telat menstruasi dan
+                                        kami iseng melakukan testpack
+                                        di pagi hari. DAN TERNYATA alhamdulillah hasilnya langsung 2 garis tebal (no
+                                        tipis-tipis), walaupun sudah
+                                        mendapatkan hasil 2 garis kami tetap melakukan testpack di hari berikutnya,
+                                        hasilnya pun tetap sama tebalnya.
+                                        Lalu kami konsultasi ke nakes dan ternyata usia kehamilan sudah 5 minggu.<br>
+                                        <i>fun-fact : di awal februari bermain trampolin padahal aslinya sudah memasuki
+                                            awal kehamilan.</i>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image" style="background-image: url(img/pia.jpeg);">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Mba alalaa</h3>
+                                    <span>Bulan Agustus 2023</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Beberapa bulan kemudian kami mulai mendatangi nakes untuk menjalani program
+                                        kehamilan.
+                                        Promil berlangsung selama 3 bulan di tahap pertama dan 3 bulan di tahap kedua.
+                                        Saat promil tahap akhir
+                                        kami melakukan pengecekan di dokter obgyn dengan hasil keseluruhan sehat.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Memori dari kami</span>
+                    <h2>Galeri Foto</h2>
+                    <p>Kenangan yang menyenangkan</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/galeri/thumbnail/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/6.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/7.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/8.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/9.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/10.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/11.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/12.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/13.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/14.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/15.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/16.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/17.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/18.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/19.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/galeri/thumbnail/20.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+         <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+            <div class="col mt-3">
+                <a href="img/galeri/1.jpeg" data-toggle="lightbox" data-caption="newborn0" data-gallery="mygallery">
+                    <img src="img/galeri/thumbnail/1.jpeg" alt="newborn"
+                        class="img-fluid w-100 rounded animate__animated animate__fadeIn animate__slow	5s animate__infinite infinite">
+                </a>
+            </div>
+            <div class="col mt-3">
+                <a href="https://picsum.photos/id/203/650/433" data-toggle="lightbox" data-caption="newborn1"
+                    data-gallery="mygallery">
+                    <img src="https://picsum.photos/id/203/399/433" alt="newborn" class="img-fluid w-100 rounded">
+                </a>
+            </div>
+            <div class="col mt-3">
+                <a href="https://picsum.photos/id/334/650/433" data-toggle="lightbox" data-caption="newborn2"
+                    data-gallery="mygallery">
+                    <img src="https://picsum.photos/id/334/399/433" alt="newborn" class="img-fluid w-100 rounded">
+                </a>
+            </div>
+            <div class="col mt-3">
+                <a href="https://picsum.photos/id/335/650/433" data-toggle="lightbox" data-caption="newborn3"
+                    data-gallery="mygallery">
+                    <img src="https://picsum.photos/id/335/399/433" alt="newborn" class="img-fluid w-100 rounded">
+                </a>
+            </div>
+            <div class="col mt-3">
+                <a href="https://picsum.photos/id/336/650/433" data-toggle="lightbox" data-caption="newborn4"
+                    data-gallery="mygallery">
+                    <img src="https://picsum.photos/id/336/399/433" alt="newborn" class="img-fluid w-100 rounded">
+                </a>
+            </div>
+            <div class="col mt-3">
+                <a href="https://picsum.photos/id/337/650/433" data-toggle="lightbox" data-caption="newborn5"
+                    data-gallery="mygallery">
+                    <img src="https://picsum.photos/id/337/399/433" alt="newborn" class="img-fluid w-100 rounded">
+                </a>
+            </div>
+
+        </div>
+    </section> -->
+
+    <section id="rsvp" class="rsvp">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Konfirmasi Kehadiran</h2>
+                    <!-- <p>Tulis Ucapan dan Do'a dibawah ini</p> action untuk yg di form kehadiran wedding -> https://script.google.com/macros/s/AKfycbwCL4usCMVh33kXsi-z7FWeo42PxLPXNmnzxQiwL9Nm_HwLO9W2Vh79Gi5OMOti4wwDFg/exec -->
+                </div>
+            </div>
+        </div>
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST"
+            action="https://script.google.com/macros/s/AKfycbyOomlqMU0su_CT7jT7a1eCIjGFcf128V3oxuGfYt06r-rnkJz-dBmEhESS8u1tTbWzlA/exec"
+            id="my-form">
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="tanggal" class="form-label">Tanggal</label>
+                    <input type="date" class="form-control" id="tanggal" name="tanggal">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="nama" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="nama" name="nama">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="kelompok" class="form-label">Kelompok</label>
+                    <select name="kelompok" id="kelompok" class="form-select">
+                        <option selected>Pilih salah satu</option>
+                        <option value="Siliwangi">Siliwangi</option>
+                        <option value="Keboncai1">Keboncai 1</option>
+                        <option value="Keboncai2">Keboncai 2</option>
+                        <option value="klayan">Klayan</option>
+                        <option value="pasindangan">Pasindangan</option>
+                        <option value="wanakaya">Wanakaya</option>
+                        <option value="kalisapu">Kalisapu</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="jam" class="form-label">Waktu Kehadiran</label>
+                    <input type="time" class="form-control" id="jam" name="jam">
+                </div>
+            </div>
+            <!-- <div class="col-12">
+                <div class="mb-3">
+                    <label for="jumlah" class="form-label">Jumlah</label>
+                    <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1"
+                        value="1">
+                </div>
+            </div> -->
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="status" class="form-label">Konfirmasi</label>
+                    <select name="status" id="status" class="form-select">
+                        <option selected>Pilih salah satu</option>
+                        <option value="Hadir">Hadir</option>
+                        <option value="Tidak Hadir">TidakHadir</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="alasan" class="form-label">Alasan Tidak Hadir</label>
+                    <input type="text" class="form-control" id="alasan" name="alasan">
+                </div>
+            </div>
+            <div class="col-12" style="margin-top: 35px;">
+                <button class="btn btn-primary">Kirim</button>
+            </div>
+        </form>
+
+        <!-- UCAPAN UNTUK PENGANTIN -->
+        <!-- <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div id="disqus_thread"></div>
+                <script>
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function () { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://project-pfwcqeoqde.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                        powered by Disqus.</a></noscript>
+            </div>
+
+        </div> -->
+    </section>
+
+    <section id="gifts" class="gifts">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Jangan lupa bawa uang sodaqoh lemparan yaa</span>
+                    <h2>الحمد لله جزاكم الله خيرا</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla sed nemo amet beatae, nesciunt -->
+                    <!-- voluptate.</p> -->
+                </div>
+            </div>
+
+            <!-- <div class="row justify-content-center text-center">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="fw-bold"> BCA </div>
+                            123456789 - Rosmalia Monika
+                        </li>
+                        <li class="list-group-item">
+                            <div class="fw-bold"> BRI </div>
+                            1234567891001 - Rosmalia Monika
+                        </li>
+                        <li class="list-group-item">
+                            <div class="fw-bold"> Dana </div>
+                            <img src="img/danaolip.jpeg" class="img-thumnail" alt="dana QR" width="150">
+                        </li>
+
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+
+
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="block">copy; 2024 Asrama Mumi Citra. All Rights Reserved.</small>
+                    <small class="block">Design by <a href="https://instagram.com/olvsn_">@olvsn_</a>.</small> <br>
+                    <small class="d-inline">Music by
+                        <a
+                            href="https://pixabay.com/users/redproductions-970568/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20603">Dubush
+                            Miaw</a> from <a
+                            href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=20603">Pixabay</a>"
+                        <!-- <a
+                            href="https://pixabay.com/id/users/calvinclavier-16027823/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=203835">Calvin
+                            Clavier</a> from <a
+                            href="https://pixabay.com/music//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=203835">Pixabay</a> -->
+                    </small>
+                    <ul class="mt-3">
+                        <li><a href="https://instagram.com/remajamasjidcitra"><i class="bi bi-instagram"></i></a></li>
+                        <!-- <li><a href="#"><i class="bi bi-tiktok"></i></a></li> -->
+                        <!-- <li><a href="#"><i class="bi bi-youtube"></i></a></li> -->
+                        <!-- <li><a href="#"><i class="bi bi-facebook"></i></a></li> -->
+                        <!-- <li><a href="#"><i class="bi bi-twitter"></i></a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="audio-container">
+        <audio id="song" autoplay loop>
+            <source src="audio/acoustic-claps-ukulele-commercial-lively-jumpy-music-20603.mp3" type="audio/mp3">
+        </audio>
+
+        <div class="audio-icon-wrapper" style="display: none;">
+            <i class="bi bi-play-circle"></i>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script src="node_modules/confetti-js/dist/index.min.js"></script>
+    <canvas id="parti"></canvas>
+
+    <script>
+        simplyCountdown('.simply-countdown', {
+            year: 2024, // required
+            month: 7, // required
+            day: 11, //required
+            hours: 7.30,  //Default is 0 [0-23] integer
+            words: { //words displayed into the countdown
+                days: { singular: 'hari', plural: 'hari' },
+                hours: { singular: 'jam', plural: 'jam' },
+                minutes: { singular: 'menit', plural: 'menit' },
+                seconds: { singular: 'detik', plural: 'detik' }
+            },
+            inline: false,
+        })
+    </script>
+
+    <script>
+        // const hamburger = document.querySelector('.navbar-toggler');
+        const stickyTop = document.querySelector('.sticky-top');
+        const offcanvas = document.querySelector('.offcanvas');
+
+        // hamburger.addEventListener('click', function () {
+        //     stickyTop.style.overflow = 'visible';
+        // });
+
+        offcanvas.addEventListener('show.bs.offcanvas', function () {
+            stickyTop.style.overflow = 'visible';
+        });
+
+        offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+            stickyTop.style.overflow = 'hidden';
+        });
+    </script>
+
+    <script>
+        const rootElement = document.querySelector(":root");
+        const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+        const audioIcon = document.querySelector('.audio-icon-wrapper i')
+        const song = document.querySelector('#song');
+        let isPlaying = false;
+
+
+        function disableScroll() {
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+            window.onscroll = function () {
+                window.scrollTo(screenTop, scrollLeft)
+            }
+
+            rootElement.style.scrollBehavior = 'auto';
+        }
+
+        function enableScroll() {
+            window.onscroll = function () { }
+
+            rootElement.style.scrollBehavior = 'smooth';
+            // localStorage.setItem('opened', 'true');
+            playAudio();
+        }
+
+        function playAudio() {
+
+            song.volume = 0.5;
+            audioIconWrapper.style.display = 'flex';
+            song.play();
+            isPlaying = true;
+        }
+
+        audioIconWrapper.onclick = function () {
+            if (isPlaying === true) {
+                song.pause();
+                audioIcon.classList.remove('bi-play-circle');
+                audioIcon.classList.add('bi-pause-circle');
+            } else {
+                song.play();
+                audioIcon.classList.add('bi-play-circle');
+                audioIcon.classList.remove('bi-pause-circle');
+            }
+
+            isPlaying = !isPlaying;
+        }
+
+        // if (!localStorage.getItem('opened')) {
+        //     disableScroll();
+        // }
+        disableScroll();
+
+    </script>
+
+    <!-- script untuk menghilangkan respon balik saat konfirmasi undangan -->
+    <script>
+        window.addEventListener("load", function () {
+            const form = document.getElementById('my-form');
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                const data = new FormData(form);
+                const action = e.target.action;
+                fetch(action, {
+                    method: 'POST',
+                    body: data,
+                })
+                    .then(() => {
+                        alert("Konfirmasi kehadiran berhasil terkirim!");
+                    })
+            });
+        });
+
+    </script>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('nama') || '';
+        const pronoun = urlParams.get('p') || 'Muda-Mudi Cirebon Utara';
+        // console.log(nama);
+
+        // ngambil span di h4 id=hero
+        const namaContainer = document.querySelector('.hero h4 span');
+        // namaContainer.innerText = pronoun + '' + nama;
+        namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ',');
+
+        // nama undangan di rsvp auto keisi sesuai nama undangan
+        document.querySelector('#nama').value = nama;
+    </script>
+
+    <script>
+        var confettiSettings = { target: 'parti' };
+        var confetti = new ConfettiGenerator(confettiSettings);
+        confetti.render();
+    </script>
+</body>
+
+</html>
